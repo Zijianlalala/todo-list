@@ -1,0 +1,53 @@
+body,div,h2,ul,li{
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* background-color: deepskyblue;; */
+    background: slategrey;
+}
+ul {
+    list-style: none;
+}
+#outer {
+    /* border: 1px solid red; */
+    width: 300px;
+    margin: 20px auto;
+    background: deepskyblue;
+    border-radius: 5px;
+}
+#outer h2 {
+    padding: 5px;
+    border-radius: 5px;
+    background: springgreen;
+}
+/* 菜单栏 */
+#outer input.btn {
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    background: seashell;
+}
+/* 显示列表 */
+#outer ul {
+    margin: 5px 0;
+    padding-bottom: 5px;
+    
+}
+#outer ul li {
+    margin: 10px;
+}
+#outer ul  input.txt {
+    background: deepskyblue;
+    border: 1px dotted cyan;
+    border-radius: 5px;
+    padding: 3px 5px;   
+    font-size: 10px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+/* #outer ul input.txt {
+    text-decoration:;
+} */
+
